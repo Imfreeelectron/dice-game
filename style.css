@@ -1,0 +1,171 @@
+
+body {
+  background-color: #1b262c;
+  /* background-color:#192965; */
+  text-align: center;
+  color: #deff8b;
+}
+
+h1 {
+  /* font-family: 'Lobster', cursive; */
+
+  /* font-family: 'Orbitron', sans-serif; */
+  /* font-family: 'Press Start 2P', cursive; */
+font-family: 'Black Ops One', cursive;
+  font-size: 3rem;
+  margin: 20px auto 15px;
+}
+
+h2 {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 2rem;
+  color: #21bf73;
+  margin: 10px;
+}
+
+h3 {
+  font-family: 'Black Ops One', cursive;
+  font-size: 1.5rem;
+  color: #fff;
+  letter-spacing: 1.5px;
+
+}
+
+/* section{
+position: relative;
+  } */
+.battle-field {
+  background-color: #555555;
+  width: 60%;
+  height: 430px;
+  border-radius: 8px;
+  margin: auto;
+}
+
+div .player-container {
+  /* background-color: red; */
+  width: 30%;
+  position: relative;
+  display: inline-block;
+}
+
+div>.DIE1, .DIE2 {
+  width: 130px;
+  height: 130px;
+  background-color: #9d0b0b;
+  border-radius: 8px;
+  /* border: solid 2px #fff; */
+  position: relative;
+  margin: auto;
+}
+
+.score-board {
+  padding: 3px 0;
+  background-color: #ffcc00;
+  color: #fff;
+  font-family: 'Black Ops One', cursive;
+
+  font-size: 1.5rem;
+  margin: auto;
+  margin-bottom: 15px;
+  border-radius: 8px;
+  border: .5px solid #fff;
+}
+.flag41,.flag42{
+  font-size: 2rem;
+}
+
+.play-button {
+  margin: 20px;
+  width: 110px;
+  height: 40px;
+  background-color: #ffcc00;
+  border-radius: 4px;
+  font-family: 'Black Ops One', cursive;
+  font-size: 1.2rem;
+  letter-spacing: 1.5px;
+}
+
+.face-one, .face-two, .face-three, .face-four, .face-five, .face-six {
+  display: none;
+}
+
+/* .battle-field > .player-container > .DIE1 > .face-four > .face4-dot-1 { */
+.dotAtPos1 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  left: 12%;
+  top: 12%;
+}
+
+.dotAtPos2 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  right: 12%;
+  top: 12%;
+}
+
+.dotAtPos3 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  left: 12%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.dotAtPos4 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  right: 12%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+
+.dotAtPos5 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  left: 12%;
+  bottom: 12%;
+}
+
+.dotAtPos6 {
+  position: absolute;
+  height: 23px;
+  width: 23px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: block;
+  right: 12%;
+  bottom: 12%;
+}
+
+.dotAtCenter {
+  width: 23px;
+  height: 23px;
+  background-color: #fff;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}

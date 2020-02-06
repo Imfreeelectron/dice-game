@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>DICE GAME</title>
+  <link rel="stylesheet" href="style.css">
+  <!-- Adding google fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Anton|Lobster&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Black+Ops+One|Orbitron:500,800|Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <div class="Announcement-box">
+      <h1>Please! Refresh to start the DICE-GAME</h1>
+      <h2 id="Announcement"></h2>
+    </div>
+
+    <div class="battle-field">
+
+      <div class="player-container">
+        <span class="flag41"></span> <br>
+        <h3>Player 1</h3>
+
+        <div class="score-board">
+          <span id="score-board1">score :: 0 </span> <br>
+          <span class="button-click1">0/5</span>
+        </div>
+
+        <div class="DIE1">
+          <!-- When 1 appers on DIE1 -->
+          <div class="face-one">
+            <span class="dotAtCenter"></span>
+          </div>
+
+          <!-- When 2 appers on DIE1 -->
+          <div class="face-two">
+            <span class="dotAtPos2"></span>
+            <span class="dotAtPos5"></span>
+          </div>
+
+          <!-- When 3 appers on DIE1 -->
+          <div class="face-three">
+            <span class="dotAtPos2"></span>
+            <span class="dotAtCenter"></span>
+            <span class="dotAtPos5"></span>
+          </div>
+
+          <!-- When 4 appers on DIE1 -->
+          <div class="face-four">
+            <span class="dotAtPos1"></span>
+            <span class="dotAtPos2"></span>
+            <span class="dotAtPos5"></span>
+            <span class="dotAtPos6"></span>
+          </div>
+
+          <!-- When 5 appers on DIE1 -->
+          <div class="face-five">
+            <span class="dotAtPos1"></span>
+            <span class="dotAtPos2"></span>
+            <span class="dotAtCenter"></span>
+            <span class="dotAtPos5"></span>
+            <span class="dotAtPos6"></span>
+          </div>
+
+          <div class="face-six">
+            <span class="dotAtPos1"></span>
+            <span class="dotAtPos2"></span>
+            <span class="dotAtPos3"></span>
+            <span class="dotAtPos4"></span>
+            <span class="dotAtPos5"></span>
+            <span class="dotAtPos6"></span>
+          </div>
+
+        </div>
+
+        <input type="button" name="button1" value="Play" class="play-button stopButton1" onclick="die1Outcomes();">
+
+
+      </div>
+
+      <div class="player-container">
+        <span class="flag42"></span> <br>
+        <h3>Player 2</h3>
+
+        <div class="score-board">
+          <span id="score-board2">score :: 0 </span>
+          <br>
+          <span class="button-click2">0/5</span>
+        </div>
+
+        <div class="DIE2">
+          <!-- When 1 appers on DIE1 -->
+          <div class="face-one">
+            <span class="dotAtCenter"></span>
+          </div>
+
+          <!-- When 2 appers on DIE1 -->
+          <div class="face-two">
+            <span class="dotAtPos2"></span>
+            <span class="dotAtPos5"></span>
+          </div>
+
+          <!-- When 3 appers on DIE1 -->
+          <div class="face-three">
+            <span class="dotAtPos2"></span>
+            <span class="dotAtCenter"></span>
+            <span class="dotAtPos5"></span>
+          </div>
+
+          <!-- When 4 appers on DIE1 -->
+          <div class="face-four">
+            <span class="dotAtPos1"></span>
+            <span class="dotAtPos2"></span>
+            <span class="dotAtPos5"></span>
+            <span class="dotAtPos6"></span>
+          </div>
+
+          <!-- When 5 appers on DIE1 -->
+          <div class="face-five">
+            <span class="dotAtPos1"></span>
+            <span class="dotAtPos2"></span>
+            <span class="dotAtCenter"></span>
+            <span class="dotAtPos5"></span>
+            <span class="dotAtPos6"></span>
+          </div>
+
+          <div class="face-six">
+            <span class="dotAtPos1"></span>
+            <span class="dotAtPos2"></span>
+            <span class="dotAtPos3"></span>
+            <span class="dotAtPos4"></span>
+            <span class="dotAtPos5"></span>
+            <span class="dotAtPos6"></span>
+          </div>
+
+
+        </div>
+
+        <input type="button" name="button2" value="Play" class="play-button stopButton2" onclick="die2Outcomes();">
+
+
+      </div>
+    </div>
+
+
+  </section>
+  <script src="index.js" charset="utf-8"></script>
+
+</body>
+
+</html>
