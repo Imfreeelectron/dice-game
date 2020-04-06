@@ -11,9 +11,10 @@ h1 {
 
   /* font-family: 'Orbitron', sans-serif; */
   /* font-family: 'Press Start 2P', cursive; */
-font-family: 'Black Ops One', cursive;
+  font-family: 'Black Ops One', cursive;
   font-size: 3rem;
   margin: 20px auto 15px;
+  text-shadow: 2px 2px 8px #000;
 }
 
 h2 {
@@ -28,6 +29,8 @@ h3 {
   font-size: 1.5rem;
   color: #fff;
   letter-spacing: 1.5px;
+  /* Adding text shadow to look more clear and above the board by color black */
+  text-shadow: 2px 2px 8px #000;
 
 }
 
@@ -84,6 +87,16 @@ div>.DIE1, .DIE2 {
   font-family: 'Black Ops One', cursive;
   font-size: 1.2rem;
   letter-spacing: 1.5px;
+}
+
+/* Box shadow */
+.battle-field, div > .DIE1, .DIE2, .score-board, .play-button {
+  box-shadow: 15px 25px 16px rgba(0, 0, 0, 0.4);;
+}
+
+/* Text shadow to result announcement */
+h2{
+  text-shadow: 2px 3px 8px #deff8b;
 }
 
 .face-one, .face-two, .face-three, .face-four, .face-five, .face-six {
